@@ -22,7 +22,7 @@ export const getProducts = async (query: QueryType): Promise<ProductType[]> => {
         }
     })
 
-    const res = await fetch(URL)
+    const res = await fetch(url)
 
     if (!res.ok) {
         throw new Error("Something went wrong")

@@ -37,9 +37,6 @@ const CategoryPage = async ({
   const colors = await getColors();
   const category = await getCategory(params.categoryId);
 
-  console.log('billboarddddddd', category.billboard)
-
-  console.log('categoryyyyyy', category)
   return (
     <div className="bg-white">
       <Container>
