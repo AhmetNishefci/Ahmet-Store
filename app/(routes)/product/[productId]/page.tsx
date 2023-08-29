@@ -7,7 +7,7 @@ import { Container } from '@/components/ui/container';
 
 export const revalidate = 0;
 
-interface ProductPageProps {
+type ProductPageProps = {
   params: {
     productId: string;
   },

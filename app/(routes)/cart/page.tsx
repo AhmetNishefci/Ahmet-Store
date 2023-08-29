@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { Container } from '@/components/ui/container';
 import { useCart } from '@/hooks/useCart';

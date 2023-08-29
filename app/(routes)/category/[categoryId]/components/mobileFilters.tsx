@@ -10,7 +10,7 @@ import { ColorType, SizeType } from "@/types";
 
 import { Filter } from "./filter";
 
-interface MobileFiltersProps {
+type MobileFiltersProps = {
   sizes: SizeType[],
   colors: ColorType[],
 }
