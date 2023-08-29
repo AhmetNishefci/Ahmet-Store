@@ -11,7 +11,7 @@ import { useBoolean } from 'usehooks-ts';
 
 export const revalidate = 0;
 
-export const CartPage = () => {
+const CartPage = () => {
     const {value: isMounted, setTrue: setMountedTrue} = useBoolean(false)
 
     useEffect(() => {
